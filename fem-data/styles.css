@@ -1,0 +1,33 @@
+body {
+    background: hsl(212, 45%, 89%);
+}
+
+.site-wrapper {
+   width: 100svw;
+   height: 100svh;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.content-wrapper {
+    background: white;
+    width: 35rem;
+    height: 45rem;
+    border-radius: 1rem;
+}
+
+h4, p {
+    text-align: center;
+}
+
+.attribution { 
+   font-size: 11px; text-align: center; 
+   position: fixed;
+   bottom: 1rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
